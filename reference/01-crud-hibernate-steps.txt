@@ -1,0 +1,9 @@
+Step 1: Update db configs in application.properties
+
+Step 2: Create Employee entity
+
+Step 3: Create DAO interface
+
+Step 4: Create DAO implementation
+
+Step 5: Create REST controller to use DAO

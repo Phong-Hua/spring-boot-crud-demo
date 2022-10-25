@@ -1,0 +1,7 @@
+The EntityManager is an API that manages the lifecycle of entity instances
+
+EntityManager is similar to Hibernate SessionFactory
+
+EntityManager can serve as a wrapper for a Hibernate Session object
+
+We can inject the EntityManger into DAO
