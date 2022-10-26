@@ -1,0 +1,12 @@
+For Spring Data REST, we only need 3 items
+
+1. Entity: Employee
+2. JpaRepository: EmployeeRepository extends JpaRepository
+3. Maven POM dependency for: spring-boot-starter-data-rest
+
+
+Spring data rest use plural form of entity:
+employee -> employees, etc...
+Does not handle complex case of language:
+goose -> geese, tooth -> teeth
+We need to specify plural name/path with an annotation
