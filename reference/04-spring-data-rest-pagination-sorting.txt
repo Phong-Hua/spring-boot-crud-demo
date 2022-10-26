@@ -1,0 +1,8 @@
+To set default page size
+'spring.data.rest.default-page-size=3'
+in the url, we specify the page number (zero-based) and size
+http://localhost:8080/magic-api/members?page=0&size=2
+
+To do sorting:
+use sort=lastName, desc etc..
+http://localhost:8080/magic-api/members?sort=lastName,desc
